@@ -23,6 +23,30 @@ body {
     text-align: center;
 }
 
+/* Pulsanti */
+
+.btn {
+    padding: 2%;
+    line-height: 24px;
+    border-radius: 20px;
+}
+
+.buttons {
+    margin-top: 5%;
+}
+
+/* Sfondo bianco */
+.bg-white{
+    color:black;
+    background-color:white;
+}
+/* Sfondo nero */
+.bg-black{
+    color:white;
+    background-color: black;
+}
+/* Fine Pulsanti */
+
 /* Fine classi generali */
 
 /* Wrapper */
