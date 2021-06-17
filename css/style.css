@@ -52,7 +52,7 @@ body {
 /* Wrapper */
 
 .wrapper {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -86,8 +86,24 @@ body {
 
 }
 
+#main-header ul li a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    padding-right: 3px;
+
+}
+
+/* posiziono il logo */
+.logo{
+    position:absolute;
+    left:4%;
+}
 /* Centro il logo con il menu*/
 #main-header nav .logo img {
+    
+    /* top:2%;
+    left:4%; */
     vertical-align: middle;
     
 }
