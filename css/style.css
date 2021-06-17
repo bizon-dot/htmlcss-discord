@@ -12,6 +12,15 @@ body {
 .all-page {
     width: 100%;
     height: 100vh;
+    position: relative;
+}
+
+.center-x-y {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 /* Fine classi generali */
@@ -33,6 +42,7 @@ body {
 /* Inizio navbar */
 /* Centro l'header con la pagina' */
 #main-header {
+    color: white;
     text-align: center;
 }
 
@@ -46,6 +56,7 @@ body {
 
 #main-header ul li a {
     color: white;
+    font-weight: 600;
     text-decoration: none;
     padding-right: 3px;
 
@@ -54,6 +65,22 @@ body {
 /* Centro il logo con il menu*/
 #main-header nav .logo img {
     vertical-align: middle;
+    
+}
+
+.text {
+    position:absolute;
+}
+
+.text h1 {
+    font-size: 40px;
+}
+
+.text p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 2%;
 }
 
 /* Fine navbar */
