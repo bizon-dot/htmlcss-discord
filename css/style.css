@@ -1,12 +1,26 @@
+/* CLassi generali */
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .all-page {
     width: 100%;
     height: 100vh;
+}
+
+/* Fine classi generali */
+
+/* Wrapper */
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* Inizio jumbotron */
@@ -15,6 +29,34 @@ box-sizing: border-box;
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
+
+/* Inizio navbar */
+/* Centro l'header con la pagina' */
+#main-header {
+    text-align: center;
+}
+
+/* Formattazione voci menu */
+#main-header ul li {
+    display: inline-block;
+    line-height: 68px;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+
+#main-header ul li a {
+    color: white;
+    text-decoration: none;
+    padding-right: 3px;
+
+}
+
+/* Centro il logo con il menu*/
+#main-header nav .logo img {
+    vertical-align: middle;
+}
+
+/* Fine navbar */
 
 
 /* Fine jumbotron */
